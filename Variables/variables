@@ -1,0 +1,30 @@
+#variables:
+"""
+year=2020
+print(year)
+
+o/p=2020
+
+Year=2020     #captial Y
+print(year)    # small y
+o/p=2020
+
+year=2020
+print(Year
+
+o/p=2020
+
+
+toolsqa=2020
+print(Toolsq)
+o/p=NameError: name 'Toolsq' is not defined. Did you mean: 'toolsqa'?
+
+company_name = "ToolsQA"
+year = 2020
+print(company_name, year)
+o/p=ToolsQA 2020
+
+None = "No Value"
+print(None)
+o/p=SyntaxError: cannot assign to None
+"""
