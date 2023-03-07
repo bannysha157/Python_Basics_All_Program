@@ -1,0 +1,52 @@
+a=123
+type(a)
+o/p=<class 'int'>
+b=-123
+type(a)
+o/p=<class 'int'>
+c=1.03
+type(c)
+o/p=<class 'float'>
+d=.23
+type(d)
+o/p=<class 'float'>
+
+x=complex(1,2)
+type(x)
+o/p=<class 'complex'>
+print(x)
+o/p=(1+2j)
+
+
+
+z=1+2j
+type(z)
+o/p=<class 'complex'>
+
+
+z=1+2J
+type(z)
+o/p=<class 'complex'>
+
+
+a=[1,2,3]
+type(a)
+o/p=<class 'list'>
+
+b=(1,2,3)
+type(b)
+o/p=<class 'tuple'>
+
+c={1,1,2}
+type(c)
+o/p=<class 'set'>
+
+d={}
+type(d)
+o/p=<class 'dict'>
+
+e=()
+type(e)
+o/p=<class 'tuple'>
+
+
