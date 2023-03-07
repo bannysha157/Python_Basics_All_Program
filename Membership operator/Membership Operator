@@ -1,0 +1,58 @@
+Example:
+a=10
+b=20
+list=[10,20,30,40];
+if(a in list):
+    print("a is not a vailable in list")
+else:
+    print("a is  not avaliabale in  list")
+if(b not in list):
+    print("b is not in avalaible in ist")
+else:
+    print("b is avalaible in list")
+
+o/p=a is not a vailable in list
+b is avalaible in list
+
+Example:
+
+item = 29
+list_1 = list(range(1, 30))
+print(item in list_1)
+
+Output:
+True
+
+
+
+Example:
+
+print(25 in {0, 15, 25})
+print('Python' in {'Java', 'is', 'best'})
+Output:
+
+True
+False
+
+
+2) not in Operator
+
+
+Example:
+item = 45
+list_1 = list(range(1, 30))
+print(item not in list_1)
+
+Output:
+True
+
+
+Example:
+a = 'ravana'
+list_1 = ['sita', 'ram', 'laxman']
+print(a not in list_1)
+
+Output:
+True
+
+
