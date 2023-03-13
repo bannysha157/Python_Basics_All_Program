@@ -1,0 +1,31 @@
+print(id([]))
+      
+o/p=1514521666176
+id(a)      
+o/p=1514521889280    
+o/p=1514521889280
+print(a.append(3))  
+o/p=None
+print(a)
+o/p=[1, 2, 3]
+id(a)
+      
+o/p=1514521889280
+id(a.append(4))
+      
+o/p=140736480417784
+id(a.append(5))
+      
+o/p=140736480417784
+id(a)
+      
+o/p=1514521889280
+id(a.append("bannysha"))
+      
+o/p=140736480417784
+id(a)
+      
+o/p=1514521889280
+print(a)
+      
+o/p=[1, 2, 3, 4, 5, 'bannysha']
