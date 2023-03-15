@@ -1,4 +1,4 @@
-Rnage(): The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
+Range(): The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
 
 it consists 3 cases like :
 cse1:   range() with Stop Argument
