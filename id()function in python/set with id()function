@@ -1,0 +1,136 @@
+
+
+set={}
+id(set)
+o/p=1514521737344
+
+id({})
+o/p=1514521934784
+
+
+set={1,2}       =>here 1,2 will added 1+2=>3
+print(id(set))
+o/p=1514521514208
+
+set={3,}     =>here the above and this will same 
+id(set)
+o/p=1514521514208
+
+set={1,}
+id(set)
+o/p=1514521513760
+
+a=1
+id(a)
+o/p=1514484662512
+
+s={"1","2"}
+s.add(3)
+ print(s)
+o/p={3, '2', '1'}
+
+id(s)
+o/p=1514521515104
+
+id(s.add(3))    here 3 will added to the set then(1,2,3)afer it will add like 1+2+3=>6  
+o/p=140736480417784
+
+print(id(s.add(6)))
+o/p=140736480417784
+
+print(s)
+o/p={3, '2', '1', 6}
+
+id(s)
+o/p=1514521515104  =>here id(s)=>id of set will be same while adding of new elements to the set
+
+print(id(s.add(12))) 
+o/p=140736480417784
+
+print(s)
+   
+{3, 6, 12, '1', '2'}
+
+id(s)
+o/p=1514521515104
+
+
+if you have add 24 to the set. you  will get same  set output id also same 
+
+print(id(s.add(24)))
+o/p=140736480417784
+
+print(s)
+o/p{3, 6, 12, '1', '2', 24}
+
+id(s)   
+o/p=1514521515104
+
+NOTE:add function it will give the same id()if we add number of elements also it will give same id
+
+ print(id(s.add(5)))
+o/p=140736480417784
+id(s)
+o/p=1514521515104
+print(s)   
+o/p={3, 5, 6, 12, '1', '2', 24}
+
+
+remove method in set with id function(): what ever element will remove the id will same
+
+s.remove(5)
+print(s)
+{3, 6, 12, '1', '2', 24}
+print(id(s.remove(3)))
+o/p=140736680417784
+print(s)
+o/p={6, 12, '1', '2', 24}
+
+
+
+
+
+copy method in set with set function():  here the id will change 
+
+a=s.copy()
+print(a)   
+o/p={'2', 6, 24, 12, '1'}
+print(id(a)) 
+o/p=1514521515328
+id(s)
+o/p=1514521515104
+print(s)
+o/p={6, 12, '1', '2', 24}
+
+b=s.copy()
+print(b)   
+o/p={'2', 6, 24, 12, '1'}
+id(b)
+o/p=1514521512416
+id(s)
+o/p=1514521515104
+c=s.copy()
+id(c)
+o/p=1514521512640
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
