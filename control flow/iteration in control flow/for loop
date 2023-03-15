@@ -1,0 +1,85 @@
+for loop :
+
+for office in ("thundersoft"):
+    print(office,end=" ")
+
+o/p=t h u n d e r s o f t 
+
+b="wolrd"
+c="hello"
+for i in range(len(b)):
+    print(i,end=" ")     =>b=world=>len=5 so nexr ranfe(5)=0 1 2 3 4
+o/p=0 1 2 3 4 
+
+concatanation with two strings forloop:
+
+for i in (c,b):
+    print(i,end=" ")
+o/p=hello wolrd
+ 
+
+for i in (c+b):
+    print(i,end=" ")
+o/p=h e l l o w o l r d 
+
+for i in (c+b):
+    print(i,end="")
+o/p=hellowolrd
+
+for loop  using append and range :
+
+
+a=[1,2,3]
+for i  in range(3,10):
+    a.append(2*i) /# here  i values will itarate like i start with 3  end with 10  =>2*3=6 next 2*4=8 ,2*5=10,2*6=12,2*14,2*8=16,2*9=18 
+print(a,end="\n")
+    
+
+1)Write a program that appends the square of each number to a new list?
+
+#Appending square to a new list
+x = [2,3,4,5,6,7,8]
+z = []
+for i in range(len(x)):
+    z.append(x[i]**2)
+print("Result: ",z)
+
+# output:
+# Result:  [4, 9, 16, 25, 36, 49, 64]
+ 
+
+2)Write a program that appends the type of elements from a list.
+# Append a list with types of elements
+n = [23, 'Python',23.98]
+x = []
+for i in range(len(n)):
+    x.append(type(n[i]))
+print(n)
+print(x)
+
+# output
+# [23, 'Python', 23.98]
+#[<class 'int'>,<class 'str'>,<class 'float'>]
+
+
+
+3)Write a program to filter even and odd number from a list.
+# WAP to filter even and odd number form a list
+x = [10,23,24,35,65,78,90]
+eve = []
+odd = []
+for i in range(len(x)):
+    if x[i] % 2 == 0:
+        eve.append(x[i])
+    else:
+        odd.append(x[i])
+print("Even numbers are: ",eve)
+print("Odd numbers are: ",odd)
+
+# output
+# Even numbers are:  [10, 24, 78, 90]
+# Odd numbers are:  [23, 35, 65]
+
+
+
+
