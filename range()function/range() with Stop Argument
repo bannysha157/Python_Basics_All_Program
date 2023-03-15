@@ -1,0 +1,50 @@
+case1:  range() with Stop Argument
+means only one argument
+
+NOTE:float values are not valid
+     if 0 or negative number is passed, we get an empty sequence
+
+
+
+# numbers from 0 to 3 (4 is not included)
+
+numbers = range(4)
+print(list(numbers))    # [0, 1, 2, 3]
+o/p= [0, 1, 2, 3]
+
+
+for i in range(9.5):
+    print(i)
+
+ o/p=  Traceback (most recent call last):
+  File "<pyshell#179>", line 1, in <module>
+    for i in range(9.5):
+TypeError: 'float' object cannot be interpreted as an integer
+
+
+# if 0 or negative number is passed, we get an empty sequence
+
+for i in range(-9):
+    print(i)
+
+o/p=no output    
+No. Because the range formula subtracts the lowest number from the highest number, the range is always zero or a positive number.
+
+
+
+numbers = range(-4)
+print(list(numbers))    # []
+o/p=[]
+
+
+numbers = range(0)
+print(tuple(numbers))    # ()
+o/p=()
+
+
+
+
+for i in range(10):
+    print(i, end=' ')
+
+# Output 0 1 2 3 4 5 6 7 8 9
