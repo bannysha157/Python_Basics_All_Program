@@ -1,0 +1,8 @@
+The Python range() works only with integers. It doesn’t support the float type, i.e., we cannot use floating-point/decimal value in any of its arguments.
+
+For example,
+If you use range() with float step argument, you will get a TypeError 'float' object cannot be interpreted as an integer.
+
+for i in range(0, 1, 0.1):
+    print(i)
+# Output TypeError: 'float' object cannot be interpreted as an integer
