@@ -1,0 +1,103 @@
+1) (5*(18//3)/2)    o/p=15.0
+     sln: // is the high precedence so 18//3=>6 then 5*6/2 next * has high precedence then 5*6=>30 then next 30/2=>15.0
+     
+2)((2**3)**2)    o/p= 64
+   sln:  here both have the same precedency so we have to go the assoctivity so here ** have Right to Left so (2**3)=>2*2*2=8
+so next (8**2)=8*8=64
+
+
+3) (2%3-4+5//6*7%8)
+    sln: we have % have same precedecy we have go to associativity so  Left ti Right
+    1st 2%3=>2
+    2nd  7%8=>7
+    3rd  5//6=>0
+    now 2-4+0*7  =>0*7=>0 next 2-4+0=>-2
+    
+    
+4)print((5 ** 1) ** 2)
+#o/p=25
+
+print(5 ** 2)
+#o/p=25
+
+print(5 * 2 // 3)
+#o/p=3
+
+print(5 + 4 - 2)
+#o/p=7
+
+print(5 - 4 + 2)
+#o/p=3
+
+print(9 / 4 // 2)
+#o/p=1.0
+
+
+
+
+5)(2*3-5//6*7%8+2)    o/p=8
+we have % have same precedecy we have go to associativity so  Left to Right
+1st 2*3=>6
+2nd  7%8=>7
+3rd  5//6=>0
+now 6-0*7+2  =>6-0+2 next 6+2=>8 o/p=8
+
+
+6)(2//3+4*2%3-1**9**8)   o/p=1
+here ** have the same precedency so wee need to go t54o associtivity so Right to left 
+1st   1**9**8=>1
+next follor division(//) Left to Right so 
+2nd   2//3=>0
+ 0+4*2%3-1*1  =>0+8%3-1*1 next 8%3=>2  
+next 0+2-1*1   =>1*1=>1  0+2-1=>1
+next 0+1*1=>  1*1=>1  
+0+1=>1
+o/p=1
+
+
+
+
+
+7)45+43%5+(23*3%2)    o/p= 49
+
+8)(4 ^ 2 << 3 + 48 // 24)   o/p=68
+sln:
+ we have 4 operators: XOR,<<,+,//
+Precedence of (//)Precedence of(+)>Precedence of (<<) Precedence of (XOR).
+
+After Evaluation of //, 48//24 = 2 our expression will become (4 ^ 2 << 3 + 2).
+After Evaluation of +, 3+2 = 5 our expression will become (4 ^ 2 << 5).
+After Evaluation of <<, 2<<5 = 64 our expression will become (4 ^ 64).
+After the Evaluation of XOR, 4^64 = 68, our expression will become 68.
+
+9)100/20<=10-5+100%10-20==5>=1!=20     O/P=1
+   
+here / % havaing precedence so we have to go associativity then left to rigt   Left to Right 
+
+ 1st  100/20=>5  --> 5<=10-5+100%10-20==5>=1!=20
+2nd   100%10=>   -->5<=10-5+0-20==5>=1!=20
+3rd   10-5=>5    -->5<=5+0-20==5>=1!=20
+4th   5+0=>5     -->5<=5-20==5>=1!=20
+5th   5-20=>15   -->5<=-15==5>=1!=20
+here <== and >== have  same precedence so we nrrd to go to associativity so Left to Right
+6th   5<=-15  false so o/p=0   -->0==5>=1!=20
+7th   5>==1   true so o/p=1    -->0==1!=20
+here both (== and !) has same precedence so we need to go for associativity
+8th   0==1 =>o is equal to 1 =>false so o/p=0      -->0!=20
+9th   0=1!=>o is not equal to 20 =>True so o/p=1   -->1 
+
+
+
+10)4*(++a * 2 + 3)      o/p=28
+1st ++a=>3
+4*(3*2+3)
+4*(6+3)
+4*(7)
+o/p=28
+
+
+
+
+
+
+
