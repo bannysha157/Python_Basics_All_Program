@@ -1,0 +1,95 @@
+while loop:
+
+
+
+x=0
+while(x<11):
+    print(x*2,end=" ")
+    x+=1
+
+    
+o/p=0 2 4 6 8 10 12 14 16 18 20 
+
+
+
+counter = 0
+while counter < 3:
+    print('hello')
+    counter = counter + 1
+else:
+    print('world')
+
+o/p=hello
+ hello 
+hello 
+world
+
+
+
+count = 0
+number = 180
+while number > 10:
+    # divide number by 3
+    number = number / 3
+    # increase count
+    count = count + 1
+print('Total iteration required', count)
+
+o/p= 'Total iteration required', count 3
+
+
+
+
+==>using the break statement in while loops:
+n = 1
+
+while n < 5:
+    print("python class")
+    n = n+1
+    if n == 3:
+        break
+o/p=python class
+python class
+
+
+
+
+
+
+==>Using if-elif-else statements inside while loop:
+
+z = 0
+while z < 3:
+    if z == 0:
+        print("z is",z)
+        z += 1
+    elif z == 1:
+        print("z is",z)
+        z += 1
+    else:
+        print("z is",z)
+        z += 1
+
+o/p=z is 0
+z is 1
+z is 2
+
+
+
+
+n = int(input("Enter an integer: "))
+i = 1
+while i <= 10:
+    mul = i*n
+    i += 1
+    print(mul,end="")
+o/p= enter a number 4 8 12 16 20 24 28 32 36 40
+
+
+
+
+
+
+
+
+
