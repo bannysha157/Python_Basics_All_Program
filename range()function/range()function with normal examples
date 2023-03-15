@@ -5,6 +5,8 @@ cse1:   range() with Stop Argument
 case2:  range() with Start and Stop Arguments:
 case3:  range() with Start, Stop and Step Arguments:
 
+we have +ve and -ve step also their
+
 
 for i in range(1,6+1):
     print(i,end=" ")
