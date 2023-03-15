@@ -1,0 +1,42 @@
+n = int(input("Enter range: ")) #10
+while(n!=0):
+    print(n, end=" ")
+    pass
+    n = n - 1
+o/p=10 9 8 7 6 5 4 3 2 1
+
+
+
+
+n=4
+while n>0:
+    n=n-1
+    pass
+print(n)
+
+o/p=0
+
+
+for i in range(5):
+    if(i==1):
+        pass
+    else:
+        print(i    
+o/p=0
+    2
+    3
+    4
+
+
+while(1==2):
+pass
+a) 0
+b) 1 
+c) 3
+d) Infinite 
+
+Answer: d) Infinite
+
+
+
+
