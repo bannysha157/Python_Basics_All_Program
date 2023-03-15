@@ -1,0 +1,51 @@
+a=1
+while(a<=15):
+    if(a==6):
+        break
+    print(a)
+    a=a+1
+print("hlo")
+
+
+o/p=a=1
+2 3 4 5 hlo
+
+
+numbers=[10,20,30]
+for i in numbers:
+    if i>25:
+        break
+    print('the current number',i)
+o/p=the current number 10
+the current number 20
+
+   
+   
+   n = int(input("Enter range: ")) #10
+while(n!=0):
+    print(n, end=" ")
+    pass
+    n = n - 1
+o/p=10 9 8 7 6 5 4 3 2 1
+
+
+
+
+n=4
+while n>0:
+    n=n-1
+    pass
+print(n)
+
+o/p=0
+
+
+for i in range(5):
+    if(i==1):
+        pass
+    else:
+        print(i)    
+o/p=0
+    2
+    3
+    4
