@@ -1,0 +1,52 @@
+a=11
+b=5
+if (a%b==0):
+print ( “Greater”)
+if (a//b==0):
+print ( “Example”)
+else
+print (“Sooo Sorry”)
+
+a) Sooo Sorry
+b)Great
+c)Example 
+d)Great Example
+
+ Answer:
+b) Great 
+
+x,y=2,4
+if(x+y= =10):
+print(“true”)
+else:
+print(“false”)
+a. true
+b .false 
+c. no output
+d. none
+
+Answer:b) False 
+
+
+x = 3
+if x == 0:
+print (“Am I here?”, end = ‘ ‘)
+elif x == 3:
+print(“Or here?”, end = ‘ ‘)
+else :
+pass
+print (“Or over here?”)
+
+a) Am I here?
+b. Or here? 
+c.Am I here? Or here?
+d.Or here ? 
+Or over here?
+
+ Answer:
+d) Or here ? 
+Or over here?
+
+
+
+ 
