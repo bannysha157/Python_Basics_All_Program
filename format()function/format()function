@@ -1,0 +1,16 @@
+
+a="my name is {},i am {}years old.".format("bannysha",3)
+print(a)
+o/p=my name is bannysha,i am 3years old.
+
+a="my name is {1},i am {0}years old.".format("bannysha",3)
+print(a)
+o/p=my name is 3,i am bannyshay old
+a="my name is {},i am {}years old.".format("bannysha",2)
+print(a)
+o/p=my name is bannysha,i am 2years old.
+
+a="my name is {name},i am {year}years old.".format(name="bannysha",year=2)
+print(a)
+o/.p=my name is bannysha,i am 2years old.
+
