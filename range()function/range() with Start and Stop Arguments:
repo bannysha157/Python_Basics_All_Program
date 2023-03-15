@@ -1,0 +1,46 @@
+
+
+Note :
+
+
+
+for i in range(2,4):
+    print(i)
+
+    
+o/p=2
+    3
+
+
+for i in range(10, 16):
+    print(i, end=' ')
+
+# Output 10 11 12 13 14 15
+
+
+
+for i in range(4,0):
+    print(i)
+o/p=no output means stop value must not be zero 
+
+for i in range(10,-1):
+    print(i)
+o/p= no output  means we cant give -ve numbers 
+
+
+for i in range(-20,-57):
+    print(i)
+
+o/p= no output
+
+# numbers from 2 to 4 (5 is not included)
+numbers = range(2, 5)
+print(list(numbers))    # [2, 3, 4]
+
+# numbers from -2 to 3 (4 is not included)
+numbers = range(-2, 4)    
+print(list(numbers))    # [-2, -1, 0, 1, 2, 3]
+
+# returns an empty sequence of numbers
+numbers = range(4, 2) 
+print(list(numbers))    # []
