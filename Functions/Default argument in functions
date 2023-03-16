@@ -1,6 +1,6 @@
 Function in Python is defined by the “def ” statement followed by the function name and parentheses ( () )
 
-NOTE:we have to assign the values from right to left
+NOTE:we have to assign the values from right to left(R-L)
 the number of arguments need  not be match with both function call&function defination
 
 Note:
