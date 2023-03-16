@@ -1,0 +1,123 @@
+Local Variable in function
+A local variable is a variable declared inside the function that is not accessible from outside of the function. The scope of the local variable is limited to that function only where it is declared.
+
+If we try to access the local variable from the outside of the function, we will get the error as NameError.
+
+
+
+Example
+
+def function1():
+    # local variable
+    loc_var = 888
+    print("Value is :", loc_var)
+
+def function2():
+
+    print("Value is :", loc_var)
+
+function1()
+function2()
+ 
+
+Output
+
+Value is : 888
+print("Value is :", loc_var) # gives error,
+NameError: name 'loc_var' is not defined
+
+
+
+
+====>Global Variable in function=====>:
+
+A Global variable is a variable that declares outside of the function. The scope of a global variable is broad. It is accessible in all functions of the same module.
+
+Example
+
+global_var = 999
+def function1():
+    print("Value in 1nd function :", global_var)
+def function2():
+    print("Value in 2nd function :", global_var)
+
+function1()
+function2()
+ 
+Output:
+
+Value in 1nd function : 999
+Value in 2nd function : 999
+
+Global Keyword in Function
+In Python, global is the keyword used to access the actual global variable from outside the function. we use the global keyword for two purposes:
+
+===>To declare a global variable inside the function==================
+
+
+Declaring a variable as global, which makes it available to function to perform the modification.
+Let’s see what happens when we don’t use global keyword to access the global variable in the function
+
+
+
+# Global variable
+global_var = 5
+def function1():
+    print("Value in 1st function :", global_var)
+
+def function2():
+    # Modify global variable
+    # function will treat it as a local variable
+    global_var = 555
+    print("Value in 2nd function :", global_var)
+
+def function3():
+    print("Value in 3rd function :", global_var)
+
+function1(
+function2()
+function3()
+ 
+Output:
+Value in 1st function : 5
+Value in 2nd function : 555
+Value in 3rd function : 5
+As you can see, function2() treated global_var as a new variable (local variable). To solve such issues or access/modify global variables inside a function, we use the global keyword.
+
+
+
+
+
+
+Example:
+
+# Global variable
+x = 5
+
+# defining 1st function
+def function1():
+    print("Value in 1st function :", x)
+
+# defining 2nd function
+def function2():
+    # Modify global variable using global keyword
+    global x
+    x = 555
+    print("Value in 2nd function :", x)
+    # defining 3rd function
+def function3():
+    print("Value in 3rd function :", x)
+function1()
+function2()
+function3()
+ 
+Output
+
+Value in 1st function : 5
+Value in 2nd function : 555
+Value in 3rd function : 555
+
+
+
+
+
