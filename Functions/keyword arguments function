@@ -46,3 +46,43 @@ result is=: 70
 
 
 
+def keywordArgs(name,age,dep=10):
+    print("name:",name)
+    print("age:",age)
+    print("dep:",dep)
+    return
+keywordArgs(name='banny',age=14,dep=10)
+
+
+output:
+name: banny
+age: 14
+dep: 10
+
+
+======>can we use default arguments in keywird argumens=====
+yes we can allowed we can do 
+
+
+def keywordArgs(name,age,dep=10):
+    print("name:",name)
+    print("age:",age)
+    print("dep:",dep)
+    return
+keywordArgs(name='banny',age=14)
+
+
+#output:
+name: banny
+age: 14
+dep: 10
+
+
+
+
+
+
+
+
+
+
