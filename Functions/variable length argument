@@ -1,0 +1,61 @@
+we dont'no the length of the aruguments while defining a function .we use a varible argument function.
+The elements will be collected using pointer(*)
+(*)it  will accept the variable length argument from the function call
+all elements will stroed in Tuple() as a output
+
+
+
+
+def var(a):
+    print(a)
+    return
+var(10)
+#o/p=10
+
+
+def var(a):     //function defination
+    print(a)
+    return
+var(10,20      //function call
+TypeError: var() takes 1 positional argument but 2 were given
+
+
+===>so here we have to avoid to this error. we can use variable length argumens with help of(*)=============
+
+def var(*a):         #varialbe length argument with(*)
+    print(a)
+    return
+var(10)
+#o/p= (10,)     # it will printed in tuple()
+
+
+
+======we can use multiple date types also====
+
+def var(*a):
+    print(a)
+    return
+var(10,20.4,"bannysha")
+
+#o/p=(10, 20.4, 'bannysha')
+
+
+=====>elements in line by line=====
+
+def var(*a):
+    print("elements are:")
+    for ele in a:
+        print(ele)
+    return
+var(10,02.2,"bunny")
+
+
+#output
+elements are:
+10
+2.2
+bunny
+
+
+
+
