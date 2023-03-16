@@ -1,3 +1,45 @@
+<========Program to check whether a number is even or not=========>
+num = int(input("enter the number?"))  
+if num%2 == 0:  
+    print("Number is even...")  
+else:  
+    print("Number is odd...")  
+Output:
+enter the number?10
+Number is even
+
+
+number = int(input("Enter the number?"))  
+if number==10:  
+    print("number is equals to 10")  
+elif number==50:  
+    print("number is equal to 50");  
+elif number==100:  
+    print("number is equal to 100");
+elif number==150:
+    print("number is equal to 150")
+else:  
+    print("number is not equal to 10, 50 or 100");  
+    
+  o/p=
+  Enter the number?150
+number is equal to 150
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 a=11
 b=5
 if (a%b==0):
