@@ -1,0 +1,21 @@
+requireds arguments :  
+number of arguments should be  same in both function defination and function call. 
+if not it will get type error
+
+
+
+
+def display(a,b,):
+    print(a,b)
+display(10,20)
+#o/p=0 20
+
+
+
+def display(a,b,c):
+    print(a,b)
+display(10,20)
+
+#output:
+TypeError: display() missing 1 required positional argument: 'c'
+
