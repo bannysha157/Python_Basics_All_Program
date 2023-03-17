@@ -1,0 +1,25 @@
+# With No Arguments, and No Return Value
+
+"""
+def Adding():
+    a = 20
+    b = 30
+    Sum = a + b
+    print("After Calling :", Sum)
+Adding()
+#o/p=After Calling : 50
+"""
+
+
+"""
+def message():
+    name="banny"
+    sis="bunny"
+    result=name+sis
+    print("after calling:",result)
+message()
+#o/p=bannybuny
+"""
+
+
+
