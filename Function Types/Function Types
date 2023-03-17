@@ -1,0 +1,18 @@
+ Types of functions in Python.
+
+1)With no argument and no return value.
+2)With no argument and with a Return value.
+3)Argument and No Return value.
+4)With argument and return value.
+
+
+From the above, 1 and 3 types of functions in Python do not return any value when they are called.
+So, while defining them, we can avoid the return keyword. When we call the 2 and 4 types of functions, they return some value. 
+So, we have to use the return keyword.
+
+
+
+
+
+
+
