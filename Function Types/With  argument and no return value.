@@ -1,0 +1,24 @@
+This type of function allows us to pass the arguments while calling it. But, This type won’t return any value when we call it.
+
+"""
+def Adding(m,n):
+    Sum = m + n
+    print("After Calling :", Sum)
+
+a=10
+b=20
+Adding(a,b)
+
+
+"""
+def message(n,a):
+    result=n+a
+    print("after calling:",result)
+
+name="banny"
+sis="bunny"
+message(name,sis)
+#o/p=bannybunny
+"""
+
+
