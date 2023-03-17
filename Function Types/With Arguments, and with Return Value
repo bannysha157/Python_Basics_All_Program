@@ -1,0 +1,21 @@
+# With Arguments, and with Return Value
+def Adding(x,y):
+    Sum = x + y
+    return Sum
+a=10
+b=20
+result=Adding(a,b)
+print("sum of the two numbers:",result)
+"""
+
+"""
+def message(n,a):
+    result=n+a
+    return result
+
+name="banny"
+sis="bunny"
+result=message(name,sis)
+print("print the names :",result)
+#o/p=print the names bannybunny
+"""
