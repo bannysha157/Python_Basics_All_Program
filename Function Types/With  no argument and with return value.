@@ -1,0 +1,28 @@
+In this type of function in Python, We won’t pass any arguments to it while defining, declaring, or calling it. 
+When we call this type of function, it returns some value.
+
+def Adding():
+    a = 20
+    b = 30
+    Sum = a + b
+    return Sum
+
+print("after calling:",Adding())
+
+"""
+
+"""
+def message():
+    name ="banysha"
+    age=25
+    result=name+age
+    return result
+
+print("after calling:",message())
+#o/p=TypeError: can only concatenate str (not "int") to str
+
+"""
+
+
+
+
