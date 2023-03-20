@@ -1,0 +1,46 @@
+string is the collection of the characters surrounded by single quotes, double quotes, or triple quotes. 
+strings can be created by enclosing the character or the sequence of characters in the quotes.
+Python allows us to use single quotes, double quotes, or triple quotes to create the string.
+
+
+#Cannot we use single quotes inside single quotes?
+"""
+#characteristics of strings:
+a='never 'loss your self' confidence'
+print(a)
+
+#o/p= invalid syntax
+because cant give like this syntax
+"""
+
+
+#Cannot we use double quotes inside double quotes
+"""
+b="never "loss your self" confidence"
+print(b)
+#o/p= invalid syntax
+"""
+
+#we can use double quotes inside single quotes
+"""
+c="never 'loss your'confidence"
+print(c)
+#o/p=never 'loss your'confidence
+"""
+
+#we can single quotes inside the double quotes
+d='never "loss your" confidence'
+print(d)
+#o/p=never loss your confidence
+
+
+
+
+"""
+#multiline string:
+a=""hii friends
+how are you""
+print(a)
+"""
+
+
