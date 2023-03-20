@@ -1,0 +1,83 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Escape Characters
+
+Escape character       Prints as
+
+\'                       Single quote
+\"                       Double quote
+\t                        Tab
+\n                    Newline (line break)
+\\                     Backslash
+
+
+
+
+#escape sequence
+
+print("Hello there!\nHow are you?\nI\'m doing fine.")
+
+#o/p=Hello there!
+How are you?
+I'm doing fine.
+
+
+"""
+#Escape Sequence in strings:
+
+office="T\tH\tU\nN\tD\tE\tR\nS\tO\tF\tT"
+print(office)
+
+#o/p=
+T	H	U
+N	D	E	R
+S	O	F	T
+
+"""
+
+
+"""
+office="\'T\tH\tU\nN\tD\tE\tR\nS\tO\tF\tT\'"
+print(office)
+
+#o/o=
+'T	H	U
+N	D	E	R
+S	O	F	T'
+
+"""
+
+"""
+sisters="bannysha\\bunny\sisters"    =>geter \\ it will give \
+print(sisters)
+#o/p= bannysha\bunny\sisters
+
+"""
+
+
+msg = '\'strings areimmutable\''
+print(msg)
+o/p 'strings areimmutable'
+
+msg ='\"strings are immutable\"'
+print(msg)
+o/p "strings are immutable"
+
+msg= 'strings\tare\timmutable'  #\t=tab spece
+print(msg)
+ o/p strings	are	immutable
+
+msg= 'strings \\immutable' #\\=it gives \
+print(msg)
+o/p strings \immutable
