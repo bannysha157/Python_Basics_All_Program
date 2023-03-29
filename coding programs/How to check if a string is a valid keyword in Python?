@@ -1,0 +1,13 @@
+import keyword
+keyword_list=keyword.kwlist
+s="or"
+s1="bunny"
+if s in keyword_list:
+    print(s,"is a keyword")
+else:
+    print(s,"is not a keyword")
+    if s1 in keyword_list:
+        print(s1,"is a kwyword")
+    else:
+        print(s1,"is not a keyword")
+
