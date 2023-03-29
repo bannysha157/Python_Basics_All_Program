@@ -1,0 +1,12 @@
+s="B4A1d3"
+alphabets=[]
+digits=[]
+for ch in s:
+    if ch.isalpha():
+        alphabets.append(ch)
+    else:
+        digits.append(ch)
+print(alphabets)
+print(digits)
+output=''.join(sorted(alphabets)+sorted(digits))
+print(output)
