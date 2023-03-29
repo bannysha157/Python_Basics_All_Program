@@ -1,0 +1,11 @@
+s = "a4k3b2d4"
+output = "  "
+for ch in s:
+    if ch .isalpha():
+        output=output+ch
+        x=ch
+    else:
+        d=int(ch)
+        newcharacter=chr(ord(x)+d)
+        output=output+newcharacter
+print(output)
