@@ -1,0 +1,15 @@
+def neg_fibonacci(n):
+    if n==0:
+        return 0
+    elif n==1:
+        return -1
+    elif n==2:
+        return -1
+    else:
+        return neg_fibonacci(n-1) + neg_fibonacci(n-2)
+
+# Driver Code
+n = int(input("Enter the value of n: "))
+print("The negative Fibonacci series of",n,"terms is:")
+for i in range(n):
+    print(neg_fibonacci(i), end=" ")
