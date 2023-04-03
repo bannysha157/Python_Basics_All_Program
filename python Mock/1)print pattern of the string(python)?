@@ -1,0 +1,21 @@
+#print the attern of string(pyhton)?
+
+#1st way :Using string slicing notation:
+
+"""
+word ="python"
+for i in range(len(word)):
+    print(word[:i+1])
+"""
+
+
+
+#2nd way:Using a for loop and string concatenation:
+"""
+word="python"
+for i in range(len(word)):
+    output=""
+    for j in range(i+1):
+        output+=word[j]
+    print(output)
+"""
