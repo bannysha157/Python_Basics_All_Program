@@ -1,0 +1,65 @@
+
+given string.
+Input: "Thundersoft India"
+Expected output: 258 12 15 16
+
+
+
+#print vowles in string
+
+#1 way:
+"""
+string=input("enter a string")
+vowles="aeiouAEIOU"
+print("volwes in the  string:",end=" ")
+for char in string:
+    if char in vowles:
+        print(char,end=" ")
+
+"""
+
+
+
+#2nd way: using string lower method 
+
+"""string=input("entera string")
+vowles="aeiouAEIOU"
+output=[]
+string_lower=string.lower()
+print(string_lower)
+for i in range(len(string)):
+    if string_lower[i]in vowles:
+        output.append(i)
+print(output)
+"""
+
+
+"""
+string="thundersoft"
+for char in string:
+    if char.lower()in 'aeiouAEIOU':
+        print(char)
+"""
+
+"""
+text = input('Enter text: ')
+count = 0
+for char in text:
+    if char.lower() in 'aeiou':
+    	print(char)   		
+       count = count + 1
+print("No. of vowels:", count)    
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
