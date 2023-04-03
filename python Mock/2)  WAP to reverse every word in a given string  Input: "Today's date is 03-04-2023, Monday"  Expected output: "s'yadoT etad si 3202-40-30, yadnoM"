@@ -1,0 +1,16 @@
+
+
+
+
+string = "Today's date is 03-04-2023, Monday"
+# split the string into a list of words
+words = string.split()
+# reverse each word in the list
+reversed_words = [word[::-1] for word in words]
+# join the reversed words back into a string
+reversed_string = " ".join(reversed_words)
+print(reversed_string)
+
+
+o/p=s'yadoT etad si ,3202-40-30 yadnoM
+
